@@ -6,10 +6,7 @@ class Solution {
             if(nums[i]==0){
                 return 0;
             }
-
-
-
-            else if(nums[i]==1){
+           else if(nums[i]==1){
                count++;
                ans=Math.max(ans,count);
             
